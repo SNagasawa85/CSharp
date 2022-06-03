@@ -1,0 +1,15 @@
+C:\Users\Steve\Desktop\CSharp\newconsoleproj\obj\Debug\net6.0\NewConsoleProj.csproj.AssemblyReference.cache
+C:\Users\Steve\Desktop\CSharp\newconsoleproj\obj\Debug\net6.0\NewConsoleProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Steve\Desktop\CSharp\newconsoleproj\obj\Debug\net6.0\NewConsoleProj.AssemblyInfoInputs.cache
+C:\Users\Steve\Desktop\CSharp\newconsoleproj\obj\Debug\net6.0\NewConsoleProj.AssemblyInfo.cs
+C:\Users\Steve\Desktop\CSharp\newconsoleproj\obj\Debug\net6.0\NewConsoleProj.csproj.CoreCompileInputs.cache
+C:\Users\Steve\Desktop\CSharp\newconsoleproj\bin\Debug\net6.0\NewConsoleProj.exe
+C:\Users\Steve\Desktop\CSharp\newconsoleproj\bin\Debug\net6.0\NewConsoleProj.deps.json
+C:\Users\Steve\Desktop\CSharp\newconsoleproj\bin\Debug\net6.0\NewConsoleProj.runtimeconfig.json
+C:\Users\Steve\Desktop\CSharp\newconsoleproj\bin\Debug\net6.0\NewConsoleProj.dll
+C:\Users\Steve\Desktop\CSharp\newconsoleproj\bin\Debug\net6.0\NewConsoleProj.pdb
+C:\Users\Steve\Desktop\CSharp\newconsoleproj\obj\Debug\net6.0\NewConsoleProj.dll
+C:\Users\Steve\Desktop\CSharp\newconsoleproj\obj\Debug\net6.0\refint\NewConsoleProj.dll
+C:\Users\Steve\Desktop\CSharp\newconsoleproj\obj\Debug\net6.0\NewConsoleProj.pdb
+C:\Users\Steve\Desktop\CSharp\newconsoleproj\obj\Debug\net6.0\NewConsoleProj.genruntimeconfig.cache
+C:\Users\Steve\Desktop\CSharp\newconsoleproj\obj\Debug\net6.0\ref\NewConsoleProj.dll
