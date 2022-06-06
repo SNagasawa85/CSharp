@@ -25,6 +25,7 @@ static int[] RandomArray()
     return NumArray;
 }
 
+
 static string TossCoin()
 {
     Console.WriteLine("Tossing a Coin!");
@@ -33,10 +34,11 @@ static string TossCoin()
     if(coin == 1){
         return "Heads";
     }
-    if(coin == 2){
+    else{
         return "Tails";
     }
 }
 
 
-
+Console.WriteLine(RandomArray());
+Console.WriteLine(TossCoin());

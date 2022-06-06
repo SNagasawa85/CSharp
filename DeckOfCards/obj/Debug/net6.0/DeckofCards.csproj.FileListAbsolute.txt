@@ -1,0 +1,15 @@
+C:\Users\Steve\Desktop\DeckOfCards\obj\Debug\net6.0\DeckofCards.csproj.AssemblyReference.cache
+C:\Users\Steve\Desktop\DeckOfCards\obj\Debug\net6.0\DeckofCards.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Steve\Desktop\DeckOfCards\obj\Debug\net6.0\DeckofCards.AssemblyInfoInputs.cache
+C:\Users\Steve\Desktop\DeckOfCards\obj\Debug\net6.0\DeckofCards.AssemblyInfo.cs
+C:\Users\Steve\Desktop\DeckOfCards\obj\Debug\net6.0\DeckofCards.csproj.CoreCompileInputs.cache
+C:\Users\Steve\Desktop\DeckOfCards\bin\Debug\net6.0\DeckofCards.exe
+C:\Users\Steve\Desktop\DeckOfCards\bin\Debug\net6.0\DeckofCards.deps.json
+C:\Users\Steve\Desktop\DeckOfCards\bin\Debug\net6.0\DeckofCards.runtimeconfig.json
+C:\Users\Steve\Desktop\DeckOfCards\bin\Debug\net6.0\DeckofCards.dll
+C:\Users\Steve\Desktop\DeckOfCards\bin\Debug\net6.0\DeckofCards.pdb
+C:\Users\Steve\Desktop\DeckOfCards\obj\Debug\net6.0\DeckofCards.dll
+C:\Users\Steve\Desktop\DeckOfCards\obj\Debug\net6.0\refint\DeckofCards.dll
+C:\Users\Steve\Desktop\DeckOfCards\obj\Debug\net6.0\DeckofCards.pdb
+C:\Users\Steve\Desktop\DeckOfCards\obj\Debug\net6.0\DeckofCards.genruntimeconfig.cache
+C:\Users\Steve\Desktop\DeckOfCards\obj\Debug\net6.0\ref\DeckofCards.dll
