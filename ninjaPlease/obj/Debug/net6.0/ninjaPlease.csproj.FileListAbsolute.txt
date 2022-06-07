@@ -1,0 +1,15 @@
+C:\Users\Steve\Desktop\ninjaPlease\obj\Debug\net6.0\ninjaPlease.csproj.AssemblyReference.cache
+C:\Users\Steve\Desktop\ninjaPlease\obj\Debug\net6.0\ninjaPlease.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Steve\Desktop\ninjaPlease\obj\Debug\net6.0\ninjaPlease.AssemblyInfoInputs.cache
+C:\Users\Steve\Desktop\ninjaPlease\obj\Debug\net6.0\ninjaPlease.AssemblyInfo.cs
+C:\Users\Steve\Desktop\ninjaPlease\obj\Debug\net6.0\ninjaPlease.csproj.CoreCompileInputs.cache
+C:\Users\Steve\Desktop\ninjaPlease\bin\Debug\net6.0\ninjaPlease.exe
+C:\Users\Steve\Desktop\ninjaPlease\bin\Debug\net6.0\ninjaPlease.deps.json
+C:\Users\Steve\Desktop\ninjaPlease\bin\Debug\net6.0\ninjaPlease.runtimeconfig.json
+C:\Users\Steve\Desktop\ninjaPlease\bin\Debug\net6.0\ninjaPlease.dll
+C:\Users\Steve\Desktop\ninjaPlease\bin\Debug\net6.0\ninjaPlease.pdb
+C:\Users\Steve\Desktop\ninjaPlease\obj\Debug\net6.0\ninjaPlease.dll
+C:\Users\Steve\Desktop\ninjaPlease\obj\Debug\net6.0\refint\ninjaPlease.dll
+C:\Users\Steve\Desktop\ninjaPlease\obj\Debug\net6.0\ninjaPlease.pdb
+C:\Users\Steve\Desktop\ninjaPlease\obj\Debug\net6.0\ninjaPlease.genruntimeconfig.cache
+C:\Users\Steve\Desktop\ninjaPlease\obj\Debug\net6.0\ref\ninjaPlease.dll
