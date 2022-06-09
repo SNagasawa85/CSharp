@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "bDGzCmkHwBAMX6lgqUUOpUj9zF3tBbsy3EhC2+CC1E0=",
+  "Source": "ViewModelFun",
+  "BasePath": "_content/ViewModelFun",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ViewModelFun\\wwwroot",
+      "Source": "ViewModelFun",
+      "ContentRoot": "C:\\Users\\Steve\\Desktop\\ViewModelFun\\wwwroot\\",
+      "BasePath": "_content/ViewModelFun",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Steve\\Desktop\\ViewModelFun\\wwwroot\\css\\style.css",
+      "SourceId": "ViewModelFun",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Steve\\Desktop\\ViewModelFun\\wwwroot\\",
+      "BasePath": "_content/ViewModelFun",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ]
+}

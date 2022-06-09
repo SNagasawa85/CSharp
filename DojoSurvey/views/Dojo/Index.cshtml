@@ -1,0 +1,47 @@
+@model Dojosurvey.Models.Survey
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome!</title>
+    <link rel="stylesheet" href="~/css/style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"/>
+</head>
+
+<body>
+<div class="mainForm">
+    <form asp-action="process" asp-controller="Dojo" method="post" class="form-group">
+        <span asp-validation-for="Name"></span>
+        <label asp-for="Name" class="form-label">Your Name:</label>
+        <input asp-for="Name" class="form-control">
+        <span asp-validation-for="Location"></span>
+        <label asp-for="Location" class="form-label">Dojo Location</label>
+        <select asp-for="Location" id="Location" class="form-select">
+            <option value="SanJose" class="form-option">San Jose</option>
+            <option value="Boise" class="form-option">Boise</option>
+            <option value="Los Angeles" class="form-option">Los Angeles</option>
+            <option value="Chicago" class="form-option">Chicago</option>
+            <option value="SanFrancisco" class="form-option">San Francisco</option>
+        </select>
+        <span asp-validation-for="Language"></span>
+        <label asp-for="Language" class="form-label mt-2">Language:</label>
+        <select asp-for="Language" id="Language">
+            <option value="C#">C#</option>
+            <option value="python">Python</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">Javascript</option>
+        </select>
+        <span asp-validation-for="Comment"></span>
+        <label asp-for="Comment" class="form-label">Comment (optional):</label>
+        <textarea asp-for="Comment" id="Comment" cols="30" rows="10" class="form-control"></textarea>
+        <button type="submit" class="btn btn-outline-info">Submit</button>
+    </form>
+</div>
+</body>
+
+</html>

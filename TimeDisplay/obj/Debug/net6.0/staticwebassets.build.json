@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "0gJ28gqIsBlGKyPDBlFhbm5Mn5F/IhdxKT2Mn09WzjI=",
+  "Source": "TimeDisplay",
+  "BasePath": "_content/TimeDisplay",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TimeDisplay\\wwwroot",
+      "Source": "TimeDisplay",
+      "ContentRoot": "C:\\Users\\Steve\\Desktop\\TimeDisplay\\wwwroot\\",
+      "BasePath": "_content/TimeDisplay",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Steve\\Desktop\\TimeDisplay\\wwwroot\\css\\IndexStyle.css",
+      "SourceId": "TimeDisplay",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Steve\\Desktop\\TimeDisplay\\wwwroot\\",
+      "BasePath": "_content/TimeDisplay",
+      "RelativePath": "css/IndexStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\IndexStyle.css"
+    }
+  ]
+}

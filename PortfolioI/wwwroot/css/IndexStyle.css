@@ -1,0 +1,24 @@
+.aboutMe {
+    width: 350px;
+    overflow-wrap:normal;
+}
+#profilePic {
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.projBox {
+    overflow-y:scroll;
+    height: 350px;
+    margin: 5% 15%;
+}
+.projPrev {
+    height: 100px;
+    width: 100px;
+}
+.proj {
+    margin-top: 5px;
+}

@@ -1,0 +1,21 @@
+.message {
+    display: flex;
+    justify-content: space-around;
+    }
+
+h1 {
+    text-align: center;
+}
+
+.numdisp {
+    text-align: center;
+}
+
+.user {
+    text-align: center;
+}
+
+.singleuser{
+    text-align: center;
+    font-size: 20pt;
+}

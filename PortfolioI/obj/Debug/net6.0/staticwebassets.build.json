@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "bGvZAp3ugaWs9fMCGL3z6buwr5Rwsju5+//x7Nia2Oo=",
+  "Source": "PortfolioI",
+  "BasePath": "_content/PortfolioI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PortfolioI\\wwwroot",
+      "Source": "PortfolioI",
+      "ContentRoot": "C:\\Users\\Steve\\Desktop\\PortfolioI\\wwwroot\\",
+      "BasePath": "_content/PortfolioI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Steve\\Desktop\\PortfolioI\\wwwroot\\css\\IndexStyle.css",
+      "SourceId": "PortfolioI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Steve\\Desktop\\PortfolioI\\wwwroot\\",
+      "BasePath": "_content/PortfolioI",
+      "RelativePath": "css/IndexStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\IndexStyle.css"
+    },
+    {
+      "Identity": "C:\\Users\\Steve\\Desktop\\PortfolioI\\wwwroot\\images\\lucky.jpg",
+      "SourceId": "PortfolioI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Steve\\Desktop\\PortfolioI\\wwwroot\\",
+      "BasePath": "_content/PortfolioI",
+      "RelativePath": "images/lucky.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\lucky.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Steve\\Desktop\\PortfolioI\\wwwroot\\images\\umbrella.jpg",
+      "SourceId": "PortfolioI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Steve\\Desktop\\PortfolioI\\wwwroot\\",
+      "BasePath": "_content/PortfolioI",
+      "RelativePath": "images/umbrella.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\umbrella.jpg"
+    }
+  ]
+}

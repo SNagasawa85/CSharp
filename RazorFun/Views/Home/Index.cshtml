@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious</title>
+</head>
+<body>
+            <h1>Here are some delicious foods!</h1>
+    @{
+        var FoodArr = new string[]
+        {
+            "Apple Pie",
+            "Burritos",
+            "Clams Casino",
+            "Donuts",
+            "Coconut",
+            "Pineapple"
+        };
+
+        foreach(var food in FoodArr)
+        {
+            string str = food.Substring(0, 1);
+            <div>
+                @if(str.ToLower() == "c")
+                {
+                    <p style="color: red;">@food</p>
+                }
+                else
+                {
+                    <p>@food</p>
+                }
+            </div>
+        }
+    }
+
+
+</body>
+</html>
