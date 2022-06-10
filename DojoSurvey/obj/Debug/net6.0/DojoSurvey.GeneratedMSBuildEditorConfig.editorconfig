@@ -15,14 +15,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = c:\Users\Steve\Desktop\CSharp\DojoSurvey
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/Steve/Desktop/CSharp/DojoSurvey/views/Dojo/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = dmlld3NcRG9qb1xJbmRleC5jc2h0bWw=
+[c:/Users/Steve/Desktop/CSharp/DojoSurvey/Views/Dojo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9qb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Steve/Desktop/CSharp/DojoSurvey/views/Dojo/Results.cshtml]
-build_metadata.AdditionalFiles.TargetPath = dmlld3NcRG9qb1xSZXN1bHRzLmNzaHRtbA==
+[c:/Users/Steve/Desktop/CSharp/DojoSurvey/Views/Dojo/Results.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9qb1xSZXN1bHRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Steve/Desktop/CSharp/DojoSurvey/views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = dmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[c:/Users/Steve/Desktop/CSharp/DojoSurvey/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

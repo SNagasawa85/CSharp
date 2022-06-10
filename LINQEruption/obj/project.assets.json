@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Steve\\Desktop\\LINQEruption\\LINQEruption.csproj",
+      "projectUniqueName": "C:\\Users\\Steve\\Desktop\\CSharp\\LINQEruption\\LINQEruption.csproj",
       "projectName": "LINQEruption",
-      "projectPath": "C:\\Users\\Steve\\Desktop\\LINQEruption\\LINQEruption.csproj",
+      "projectPath": "C:\\Users\\Steve\\Desktop\\CSharp\\LINQEruption\\LINQEruption.csproj",
       "packagesPath": "C:\\Users\\Steve\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Steve\\Desktop\\LINQEruption\\obj\\",
+      "outputPath": "C:\\Users\\Steve\\Desktop\\CSharp\\LINQEruption\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Steve\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -19,7 +19,7 @@ List<Eruption> eruptions = new List<Eruption>()
 
 IEnumerable<Eruption> stratovolcanoEruptions = eruptions.Where(c => c.Type == "Stratovolcano");
 PrintEach(stratovolcanoEruptions, "Stratovolcano eruptions.");
-Execute Assignment Tasks here!
+// Execute Assignment Tasks here!
 
 IEnumerable<Eruption> chileEruption = eruptions.Where(e => e.Location == "Chile");
 PrintEach(chileEruption, "Eruptions in Chile");
@@ -95,4 +95,5 @@ static void PrintEach(IEnumerable<dynamic> items, string msg = "")
         Console.WriteLine(item.ToString());
     }
 }
+
 
