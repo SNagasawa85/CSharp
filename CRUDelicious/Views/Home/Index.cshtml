@@ -1,0 +1,23 @@
+﻿@model List<Dish>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h1 class="text-center fw-bold">Welcome to CRUDelicious</h1>
+<div class="main d-flex justify-content-between mb-5">
+    <div class="col1">
+        <p class="fs-4 fw-bold">Check out some recent dishes!</p>
+        
+        <table class="table">
+            <thead>
+                @{
+                    @foreach(var one in Model)
+                    {
+                        <p><a href="/view/@one.DishId">@one.Name</a> by @one.Chef</p>
+                    }
+                }
+            </thead>
+        </table>
+    </div>
+    <a href="/add/dish" class="fs-4 fw-bold">Add a Dish</a>
+</div>

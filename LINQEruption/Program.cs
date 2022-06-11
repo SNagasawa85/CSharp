@@ -24,19 +24,19 @@ PrintEach(stratovolcanoEruptions, "Stratovolcano eruptions.");
 IEnumerable<Eruption> chileEruption = eruptions.Where(e => e.Location == "Chile");
 PrintEach(chileEruption, "Eruptions in Chile");
 
-List<Eruption> hawaiinErupt = eruptions.Where(h => h.Location == "Hawaiian Is").ToList();
+List<Eruption> hawaiinErupt = eruptions.Where(h => h.Location == "Hawaiian Is").OrderBy(y => y.Year).ToList();
 PrintEach(hawaiinErupt);
 if(hawaiinErupt == null)
 {
-    Console.WriteLine("No Hawaiin Eruptions");
+    Console.WriteLine("No Hawaiian Eruptions");
 }
 else if(hawaiinErupt.Count() == 1)
 {
-    PrintEach(hawaiinErupt, "Hawaiin Eruption:");
+    PrintEach(hawaiinErupt, "Hawaiian Eruption:");
 }
 else if (hawaiinErupt.Count() > 1)
 {
-    Console.WriteLine("Hawaiin Eruption:" + hawaiinErupt[0]);
+    Console.WriteLine("Hawaiian Eruption:" + hawaiinErupt[0]);
 }
 
 IEnumerable<Eruption> newZealand = eruptions.Where(z => z.Location == "New Zealand");

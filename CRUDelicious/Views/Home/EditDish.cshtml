@@ -1,0 +1,40 @@
+@model Dish
+
+<div>
+    <a href="/" class="fs-5 fw-bold">Home</a>
+    <h1 class="text-center">Edit @Model.Name!</h1>
+    <form asp-action="/submit/edit/@Model.DishId" asp-controller="Home" method="post" class="form-group justify-content-evenly d-flex p-4">
+        <div class="d-inline">
+            <div>
+                <label class="form-label" asp-for="Chef"></label>
+                <span asp-validation-for="Chef" class="text-danger"></span>
+                <input  class="form-control" asp-for="Chef" value="@Model.Chef">
+            </div>
+            <div>
+                <label class="form-label" asp-for="Name" class="mt-2"></label>
+                <span asp-validation-for="Name" class="text-danger"></span>
+                <input class="form-control" asp-for="Name"  value="@Model.Name">
+            </div>
+                <label class="form-label" asp-for="Calories" class="mt-2"></label>
+                <span asp-validation-for="Calories" class="text-danger"></span>
+                <input  class="form-control" asp-for="Calories"  value="@Model.Calories">
+        </div>
+        <div>
+            <label class="form-label" asp-for="Tastiness" class="mt-2"></label>
+            <span asp-validation-for="Tastiness" class="text-danger"></span>
+            <Select class="form-select"  asp-for="Tastiness" selected="@Model.Tastiness">
+                <option class="form-option"  value="1">1</option>
+                <option class="form-option"  value="2">2</option>
+                <option class="form-option"  value="3">3</option>
+                <option class="form-option"  value="4">4</option>
+                <option class="form-option"  value="5">5</option>
+            </Select>            
+        </div>
+        <div>
+            <label class="form-label" asp-for="Description" class="mt-2"></label>
+            <span asp-validation-for="Description" class="text-danger"></span>
+            <textarea  class="form-control" asp-for="Description" cols="30" rows="10"  value="@Model.Description"></textarea>
+            <button type="submit" class="btn btn-success">Edit @Model.Name</button>
+        </div>
+    </form>
+</div>
