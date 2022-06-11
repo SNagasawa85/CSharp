@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Steve\\Desktop\\CSharp\\TimeDisplay\\TimeDisplay.csproj",
+  "FilePath": "c:\\Users\\Steve\\Desktop\\CSharp\\PasscodeGen\\PasscodeGen.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16295,11 +16295,16 @@
     ],
     "CSharpLanguageVersion": 1000
   },
-  "RootNamespace": "TimeDisplay",
+  "RootNamespace": "PasscodeGen",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Steve\\Desktop\\CSharp\\TimeDisplay\\views\\Home\\Index.cshtml",
-      "TargetPath": "views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\Steve\\Desktop\\CSharp\\PasscodeGen\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Steve\\Desktop\\CSharp\\PasscodeGen\\Views\\Passcode\\Index.cshtml",
+      "TargetPath": "Views\\Passcode\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],
