@@ -3,7 +3,7 @@
 <div>
     <a href="/" class="fs-5 fw-bold">Home</a>
     <h1 class="text-center">Edit @Model.Name!</h1>
-    <form asp-action="/submit/edit/@Model.DishId" asp-controller="Home" method="post" class="form-group justify-content-evenly d-flex p-4">
+    <form asp-action="SubmitEdit" asp-controller="Home" method="Post" class="form-group justify-content-evenly d-flex p-4">
         <div class="d-inline">
             <div>
                 <label class="form-label" asp-for="Chef"></label>
@@ -22,7 +22,7 @@
         <div>
             <label class="form-label" asp-for="Tastiness" class="mt-2"></label>
             <span asp-validation-for="Tastiness" class="text-danger"></span>
-            <Select class="form-select"  asp-for="Tastiness" selected="@Model.Tastiness">
+            <Select class="form-select"  asp-for="Tastiness">
                 <option class="form-option"  value="1">1</option>
                 <option class="form-option"  value="2">2</option>
                 <option class="form-option"  value="3">3</option>

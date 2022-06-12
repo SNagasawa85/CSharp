@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using CRUDelicious.Models;
+using Microsoft.AspNetCore.Http;
 
 namespace CRUDelicious.Controllers;
 
@@ -15,7 +16,7 @@ public class HomeController : Controller
     [HttpGet("")]
     public IActionResult Index()
     {
-        List<Dish> all = _context.Dishes.ToList();
+        List<Dish> all = _context.Dishes.OrderBy(u => u.created_at).ToList();
         return View(all);
     }
 
@@ -36,7 +37,7 @@ public class HomeController : Controller
             _context.SaveChanges();
             return RedirectToAction("Index");
         }
-        return RedirectToAction("AddDish");
+        return View("AddDish");
     }
 
     [HttpGet]
@@ -52,25 +53,29 @@ public class HomeController : Controller
     public IActionResult EditDish(int oneID)
     {
         Dish OneDish = _context.Dishes.FirstOrDefault(u => u.DishId == oneID);
-        return View(OneDish);
+        HttpContext.Session.SetInt32("oneID", oneID);
+        return View("EditDish", OneDish);
     }
 
     [HttpPost]
-    [Route("/submit/edit/{oneID}")]
-    public IActionResult SubmitEdit(int oneID, Dish editedDish)
+    [Route("/submitedit")]
+    public IActionResult SubmitEdit(Dish editedDish)
     {
+        int? editID = HttpContext.Session.GetInt32("oneID");
+        int oneID = Convert.ToInt32(editID);
+        Dish GetDish = _context.Dishes.First(u => u.DishId == oneID);
         if(ModelState.IsValid)
             {
-            Dish GetDish = _context.Dishes.FirstOrDefault(u => u.DishId == oneID);
             GetDish.Name = editedDish.Name;
             GetDish.Chef = editedDish.Chef;
-            GetDish.Tastiness = editedDish.Tastiness;
             GetDish.Calories = editedDish.Calories;
+            GetDish.Tastiness = editedDish.Tastiness;
             GetDish.Description = editedDish.Description;
-            GetDish.updated_at = editedDish.created_at;
+            GetDish.updated_at = DateTime.Now;
+            _context.SaveChanges();
             return RedirectToAction("Index");
             }
-        return RedirectToAction("EditDish");
+        return View("EditDish", GetDish);
     }
 
     [HttpGet]
