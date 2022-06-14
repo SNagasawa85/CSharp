@@ -1,0 +1,35 @@
+﻿@model List<Chef>
+
+@{
+    ViewData["Title"] = "Chefs";
+}
+
+<div class="top d-flex">
+    <p class="fs-4 text-center">Chefs | <a href="/dishes" class="fs-4">Dishes</a></p>
+    <span><a href="/add/chef" class="fs-6">Add a Chef</a></span>
+</div>
+<br>
+<h3 class="border-bottom">Check out our roster of Chefs!</h3>
+<table>
+    <thead>
+        <th>Name</th>
+        <th>Age</th>
+        <th># of Dishes</th>
+    </thead>
+    @{
+        @foreach(var one in Model)
+        {
+            int age =DateTime.Now.Year - one.BirthDate.Year;
+            @if(one.BirthDate.Month > DateTime.Now.Month)
+            {
+                age = age - 1;
+            }
+            int dishCount = one.CreatedDishes.Count();
+            <tr>
+                <td>@one.FirstName @one.LastName</td>
+                <td>@age<td>
+                <td>@one.CreatedDishes.Count</td>
+            </tr>
+        }
+    }
+</table>

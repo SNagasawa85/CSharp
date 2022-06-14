@@ -40,5 +40,26 @@ static string TossCoin()
 }
 
 
+static List<string> Names()
+{
+    List<string> People = new List<string>
+    {
+        "Todd",
+        "Tiffany",
+        "Geneva",
+        "Sydney"
+    };
+    List<string> LongNames = new List<string>();
+    foreach(string name in People)
+    {
+        if(name.Length > 5)
+        {
+            LongNames.Add(name);
+        }
+    }
+    return LongNames;
+}
+
+Console.WriteLine(Names());
 Console.WriteLine(RandomArray());
 Console.WriteLine(TossCoin());

@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model User
+
+<div class="topdiv d-flex justify-content-between">
+    <h1>Register to this Cool Website!</h1>
+    <span><a href="/login" class="fs-5 fw-bold">Login</a></span>
+    <span class="text-center text-danger fs-4">@ViewBag.ErrorMessage</span>
+</div>
+<form asp-action="register" asp-controller="Home" method="post" class="mt-5 form-group d-flex gap-4">
+    <div class="col1">
+        <label asp-for="FirstName" class="form-label"></label>
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+        <input asp-for="FirstName" class="form-control">
+        <label asp-for="LastName" class="form-label"></label>
+        <span asp-validation-for="LastName" class="text-danger"></span>
+        <input asp-for="LastName" class="form-control">        
+        <label asp-for="Email" class="form-label"></label>
+        <span asp-validation-for="Email" class="text-danger"></span>
+        <input asp-for="Email" class="form-control">
+        <button type="Submit" class="mt-2 btn btn-outline-success">Sign Up Now</button>
+    </div>
+    <div class="col2">
+        <label asp-for="Password" class="form-label"></label>
+        <span asp-validation-for="Password" class="text-danger"></span>
+        <input asp-for="Password" class="form-control">
+        
+        <label asp-for="ConfirmPassword" class="form-label"></label>
+        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+        <input asp-for="ConfirmPassword" class="form-control">
+        
+    </div>
+
+</form>
