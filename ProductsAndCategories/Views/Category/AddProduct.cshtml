@@ -1,0 +1,29 @@
+@model Category
+@{
+    ViewData["Title"] = "Add a Product";
+}
+
+<h1 class="text-center">@Model.Name</h1>
+<div class="main d-flex gap-4">
+    <div class="col1">
+        <h3 class="text-center">Products:</h3>
+        <ul>
+            @{
+                @if(Model.Products != null)
+                {
+                    @foreach(var one in Model.Products)
+                    {
+                        <li>@one.Product.Name</li>
+                    }
+                }
+            }
+        </ul>
+    </div>
+    <div class="col2">
+        @{
+            Association Assoc = new Association();
+            Assoc.CategoryID = @Model.CategoryID;
+        }
+        <partial name="NewCategoryAssociationPartial" model="@Assoc"/>
+    </div>
+</div>

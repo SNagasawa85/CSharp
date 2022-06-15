@@ -1,0 +1,14 @@
+@model Association
+
+<form asp-action="SubmitNewCategoryAssoc" asp-controller="Product" method="post" asp-route-id="@ViewBag.ProductID">
+    <label asp-for="CategoryID" class="form-label"></label>
+    <select asp-for="CategoryID">
+        @{
+            @foreach(var one in ViewBag.CatList)
+            {
+                <option value="@one.CategoryID">@one.Name</option>
+            }
+        }
+    </select>
+    <button type="submit" class="btn btn-outline-success">Add Category</button>
+</form>

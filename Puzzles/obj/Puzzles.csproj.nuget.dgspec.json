@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Steve\\Desktop\\CSharp\\puzzles\\Puzzles.csproj": {}
+    "C:\\Users\\Steve\\Desktop\\CSharp\\Puzzles\\Puzzles.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Steve\\Desktop\\CSharp\\puzzles\\Puzzles.csproj": {
+    "C:\\Users\\Steve\\Desktop\\CSharp\\Puzzles\\Puzzles.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Steve\\Desktop\\CSharp\\puzzles\\Puzzles.csproj",
+        "projectUniqueName": "C:\\Users\\Steve\\Desktop\\CSharp\\Puzzles\\Puzzles.csproj",
         "projectName": "Puzzles",
-        "projectPath": "C:\\Users\\Steve\\Desktop\\CSharp\\puzzles\\Puzzles.csproj",
+        "projectPath": "C:\\Users\\Steve\\Desktop\\CSharp\\Puzzles\\Puzzles.csproj",
         "packagesPath": "C:\\Users\\Steve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Steve\\Desktop\\CSharp\\puzzles\\obj\\",
+        "outputPath": "C:\\Users\\Steve\\Desktop\\CSharp\\Puzzles\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Steve\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

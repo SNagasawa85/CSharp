@@ -60,6 +60,17 @@ static List<string> Names()
     return LongNames;
 }
 
+static string PrintEach(List<string> value)
+{
+    string result = "";
+    foreach(string one in value)
+    {
+        Console.Write(one + " ");
+    }
+    return result;
+}
+
 Console.WriteLine(Names());
 Console.WriteLine(RandomArray());
 Console.WriteLine(TossCoin());
+PrintEach(Names());
