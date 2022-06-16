@@ -53,6 +53,8 @@ public class WeddingController : Controller
             ViewBag.NotLoggedIn = "You Must Login or Register to view content.";
             return RedirectToAction("User", "LogReg");
         }
+        APIKey newKey = new APIKey();
+        ViewBag.Key = newKey.MyAPIKey;
         Wedding? oneWedding = _context.Weddings.Include(w => w.Users).ThenInclude(a => a.User).FirstOrDefault(w => w.WeddingID == id);
         return View(oneWedding);
     }
