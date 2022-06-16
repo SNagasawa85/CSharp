@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Weclome";
+}
+
+<h3 class="text-center mt-3 text-danger">@ViewBag.NotLoggedIn</h3>
+<div class="main d-flex justify-content-evenly">
+    <div class="col-med">
+        <partial name="_RegForm"/>
+    </div>
+    <div class="col-med">
+        <partial name="_LogForm"/>
+    </div>
+</div>

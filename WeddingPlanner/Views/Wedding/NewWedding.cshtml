@@ -1,0 +1,30 @@
+@{
+    ViewData["Title"]="Add a Wedding!";
+}
+@using Microsoft.AspNetCore.Http
+@model Wedding
+
+<Div class="d-flex justify-content-between">
+    <h1>Plan Your Wedding!</h1>
+    <span>
+        <a asp-controller="User" asp-action="Dashboard" class="btn btn-outline-info mt-3 text-dark">Dashboard</a>
+        <a asp-controller="User" asp-action="Logout" class="btn btn-outline-info mt-3 text-dark">Log Out</a>
+    </span>
+</Div>
+
+<form asp-action="AddWedding" asp-controller="Wedding" method="post" class="form-group">
+    <input type="hidden" asp-for="UserID" value="@ViewBag.UserID">
+    <label asp-for="WedderOne" class="form-label"></label>
+    <span asp-validation-for="WedderOne" class="text-danger"></span>
+    <input asp-for="WedderOne" class="form-control">
+    <label asp-for="WedderTwo" class="form-label"></label>
+    <span asp-validation-for="WedderTwo" class="text-danger"></span>
+    <input asp-for="WedderTwo" class="form-control">
+    <label asp-for="WeddingDate" class="form-label"></label>
+    <span asp-validation-for="WeddingDate" class="text-danger"></span>
+    <input asp-for="WeddingDate" class="form-control">
+    <label asp-for="Address" class="form-label"></label>
+    <span asp-validation-for="Address" class="text-danger"></span>
+    <input asp-for="Address" class="form-control">
+    <button type="submit" class="btn mt-2 btn-outline-info text-dark">Create</button>
+</form>

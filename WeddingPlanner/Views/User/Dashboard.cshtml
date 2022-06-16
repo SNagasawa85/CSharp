@@ -1,0 +1,73 @@
+@{
+    ViewData["Title"]="Dashboard";
+}
+@using Microsoft.AspNetCore.Http;
+@model List<Wedding>
+<div class="d-flex justify-content-between">
+    <h1>Welcome to the Wedding Planner</h1>
+    <p><a class="btn btn-outline-info text-dark mt-2" asp-controller="User" asp-action="Logout" >Log Out</a></p>
+</div>
+<table class="table table-dark table-striped">
+    <thead>
+        <tr>
+            <th>Wedding</th>
+            <th>Date</th>
+            <th>Guest</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            bool inList = false;
+            @if(Model != null)
+            {
+                @foreach(var one in Model)
+                {
+                    string bigDay = one.WeddingDate.ToString("MMMM dd, yyyy");
+                    <tr>
+                        <td>
+                            <a asp-controller="Wedding" asp-action="ViewWedding" asp-route-id="@one.WeddingID">
+                                @one.WedderOne & @one.WedderTwo
+                            </a>
+                        </td>
+                        <td>@bigDay</td>
+                        <td>@one.Users.Count</td>
+                        @if(one.UserID == ViewBag.LoggedIn)
+                        {
+                            <td>
+                                <a asp-controller="Wedding" asp-action="DeleteWedding" asp-route-id="@one.WeddingID">
+                                    Delete
+                                </a>
+                            </td>
+                        }        
+                        @foreach(var user in one.Users)
+                        {
+                            @if(ViewBag.LoggedIn == user.UserID)
+                            {
+                                inList = true;
+                            }
+                        }
+                        @if(inList && one.UserID != ViewBag.LoggedIn)
+                        {
+                            <td>
+                                <a asp-controller="Wedding" asp-action="UnRSVP" asp-route-id="@one.WeddingID">
+                                    Un-RSVP
+                                </a>
+                            </td>
+                        }
+                        @if(!inList && one.UserID != ViewBag.LoggedIn)
+                        {
+                            <td>
+                                <a asp-controller="Wedding" asp-action="RSVP" asp-route-id="@one.WeddingID">
+                                    RSVP
+                                </a>
+                            </td>
+                        }
+                        
+                    </tr>
+                }
+            }
+        }
+    </tbody>    
+</table>
+<p class="text-end me-5"><a asp-controller="Wedding" asp-action="NewWedding" class="btn btn-outline-info text-dark">New Wedding</a></p>
